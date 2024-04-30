@@ -1,0 +1,57 @@
+#root {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 70%;
+  gap: 20px;
+}
+
+.notes {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 20px;
+}
+
+.note {
+  border: 1px solid grey;
+  padding: 12px;
+  word-wrap: break-word;
+  border-radius: 15px;
+  background-color: #353945;
+}
+
+.add-note {
+  display: flex;
+  gap: 10px;
+  height: 30px;
+  margin-bottom: 20px;
+}
+
+.input {
+  display: flex;
+  flex-grow: 1;
+  border-radius: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: large;
+}
+
+.button {
+  border-radius: 15px;
+  font-size: large;
+}
+
+a {
+  color: #B5CEA8;
+}
+
+.date {
+  color: gray;
+  font-size: small;
+  text-align: end;
+}
+
+.location {
+  font-size: small;
+}
