@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './App.css';
-import getLocation from './utils/getLocation'
+import { getLocation } from './utils/getLocation'
 
 function App() {
   const [noteField, setNoteField] = useState('');
